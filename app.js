@@ -9,14 +9,14 @@
 //
 // Starting code (don't modify this):
 
-const nums = [13, 87, 2, 89, 12, 4, 90, 63];
+// const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 // Your code here:
 
-const numsTimesTwo = nums.map((num) => {
-    return (num * 2);
-});
-console.log(numsTimesTwo);
+// const numsTimesTwo = nums.map((num) => {
+//     return (num * 2);
+// });
+// console.log(numsTimesTwo);
 
 // ! Exercise 2:
 // a. Given the provided `pizzaToppings` array, use destructuring to extract 
@@ -28,13 +28,13 @@ console.log(numsTimesTwo);
 //
 // Starting code (don't modify this):
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here:
 
-const [firstIngredient, secondIngredient] = pizzaToppings;
-console.log(firstIngredient);
-console.log(secondIngredient);
+// const [firstIngredient, secondIngredient] = pizzaToppings;
+// console.log(firstIngredient);
+// console.log(secondIngredient);
 
 // ! Exercise 3:
 // a. Given the provided `car` object, use destructuring to create two
@@ -44,16 +44,16 @@ console.log(secondIngredient);
 //
 // Starting code (don't modify this):
 
-const car = {
-    make: 'Audi',
-    model: 'Q5',
-  };
+// const car = {
+//     make: 'Audi',
+//     model: 'Q5',
+//   };
   
   // Your code here:
   
-const {make, model} = car;
-console.log(make);
-console.log(model);  
+// const {make, model} = car;
+// console.log(make);
+// console.log(model);  
 
 // ! Exercise 4: 
 // a. Duplicate the provided `morePizzaToppings` array using the spread 
@@ -63,12 +63,12 @@ console.log(model);
 //
 // Starting code (don't modify this):
 
-const morePizzaToppings = ['Cheese', 'Sauce'];
+// const morePizzaToppings = ['Cheese', 'Sauce'];
 
 // Your code here:
 
-const uncontroversialPizzaToppings = [...morePizzaToppings];
-console.log(uncontroversialPizzaToppings);
+// const uncontroversialPizzaToppings = [...morePizzaToppings];
+// console.log(uncontroversialPizzaToppings);
 
 // ! Exercise 5:
 // a. Duplicate the provided `anotherCar` object and spread its values into a 
@@ -81,18 +81,18 @@ console.log(uncontroversialPizzaToppings);
 //
 // Starting code (don't modify this):
 
-const anotherCar = {
-    make: 'Toyota',
-    model: 'RAV4',
-  };
+// const anotherCar = {
+//     make: 'Toyota',
+//     model: 'RAV4',
+//   };
   
   // Your code here:
   
-const myCar = {...anotherCar};
-myCar.make = 'Nissan';
-myCar.model = 'Altima';
-console.log('Original:', anotherCar);
-console.log('Clone:', myCar)  
+// const myCar = {...anotherCar};
+// myCar.make = 'Nissan';
+// myCar.model = 'Altima';
+// console.log('Original:', anotherCar);
+// console.log('Clone:', myCar)  
 
 // ! Exercise 6:
 // a. Define a variable named `propertyName` and assign a string (like 
@@ -107,11 +107,11 @@ console.log('Clone:', myCar)
 //
 // Your code here:
 
-const propertyName = 'age';
-const userProfile = {
-    [propertyName]: 10,
-};
-console.log(userProfile);
+// const propertyName = 'age';
+// const userProfile = {
+//     [propertyName]: 10,
+// };
+// console.log(userProfile);
 
 // ! Exercise 9:
 // a. Convert the following `if...else` statement into a ternary:
@@ -124,9 +124,9 @@ console.log(userProfile);
 //
 // Starting code (don't modify this):
 
-const pizza = 'tasty';
+// const pizza = 'tasty';
 
 // Your code here:
 
-let review = pizza === 'tasty' ? 'yum' : 'yuck'
-console.log(review)
+// let review = pizza === 'tasty' ? 'yum' : 'yuck'
+// console.log(review)
